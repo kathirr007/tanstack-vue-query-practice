@@ -2,9 +2,9 @@
 import { getCurrentInstance, ref } from 'vue'
 import { VueQueryPlugin } from '@tanstack/vue-query'
 
-import Posts from './Posts.vue'
-import Post from './Post.vue'
-import Users from './Users.vue'
+import Posts from './components/Posts.vue'
+import Post from './components/Post.vue'
+import Users from './components/Users.vue'
 
 const currentInstance = getCurrentInstance()
 
